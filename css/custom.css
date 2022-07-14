@@ -505,7 +505,7 @@
   border-radius: 26px;
 }
 
-.organizers_block_item:last-child::before {
+.organizers_block_col:last-child .organizers_block_item::before {
   position: absolute;
   top: 5px;
   right: 10px;
@@ -558,4 +558,197 @@
   line-height: 145%;
 
   color: rgba(0, 0, 0, 0.5);
+}
+
+.partners_block_wrapper {
+  margin-bottom: 83px;
+  padding: 0;
+}
+
+.partners_block_title {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 62px;
+  font-feature-settings: "liga" off;
+
+  margin-bottom: 15px;
+  padding-left: 46px;
+
+  color: #11253d;
+}
+
+.place_block_wrapper {
+  padding: 28px 37px 28px 65px;
+  margin: 0;
+  margin-bottom: 39px;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(174, 174, 174, 0.25);
+  border-radius: 46px;
+}
+
+.place_block_col:first-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.place_left_date {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+
+  margin-bottom: 12px;
+
+  color: #e64d4f;
+}
+
+.place_block_title {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 62px;
+
+  margin-bottom: 12px;
+
+  color: #000000;
+}
+
+.place_left_desc {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px;
+
+  max-width: 431px;
+  margin-bottom: 59px;
+
+  color: #000000;
+}
+
+.place_left_address {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  color: #000000;
+}
+
+.place_left_icon {
+  display: block;
+
+  margin-right: 15px;
+}
+
+.place_block_carousel.carousel {
+  background: none;
+}
+
+.place_block_indicators {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.place_block_indicators button {
+  width: 13px !important;
+  height: 13px !important;
+  margin-left: 3.5px !important;
+  margin-right: 3.5px !important;
+
+  transition: all 0.3s linear !important;
+
+  opacity: 1 !important;
+  background: #ffffff;
+  border-radius: 50%;
+  border: none !important;
+}
+
+.place_block_indicators button.active {
+  width: 53px !important;
+  height: 6px !important;
+  max-height: 6px !important;
+  margin-left: 9px !important;
+  margin-right: 9px !important;
+
+  background: #ffffff;
+  border-radius: 100px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px 31px;
+  padding-left: 110px;
+
+  background: #1b1d20;
+  border-radius: 34px 34px 0 0;
+}
+
+.ul_footer_menu {
+  margin-bottom: 0;
+}
+
+.li_footer_menu_item {
+  margin-right: 40px;
+}
+
+.li_footer_menu_item:last-child {
+  margin-right: 0;
+}
+
+.a_footer {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-decoration: none;
+  transition: all 0.2s linear;
+
+  color: #ffffff;
+  border-bottom: 1px solid transparent;
+}
+
+.a_footer:hover {
+  color: #ffffff;
+  border-color: #fff;
+}
+
+.footer__btn {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  font-feature-settings: "liga" off;
+
+  padding: 16px 22px;
+
+  transition: all 0.2s linear;
+  text-decoration: none;
+
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 64px;
+}
+
+.footer__btn:hover {
+  background-color: #fff;
+  color: #000000;
 }
