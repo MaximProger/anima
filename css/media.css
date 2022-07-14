@@ -13,13 +13,30 @@
     .track_well{
         padding-right: 100px;
     }
-    .track_well_p1::before{
+    .track_well::before{
         position: absolute;
         height: 150px;
         right: -1%;
         margin-top: -50px;
         width: 150px;
-        content: url("../images/tracks/p1.svg")
+    }
+    .track_well_p1::before{
+        content: url("../images/tracks/pm1.svg")
+    }
+    .track_well_p2::before{
+        content: url("../images/tracks/pm2.svg")
+    }
+    .track_well_p3::before{
+        content: url("../images/tracks/pm3.svg")
+    }
+    .track_well_p4::before{
+        content: url("../images/tracks/pm4.svg")
+    }
+    .track_well_p5::before{
+        content: url("../images/tracks/pm5.svg")
+    }
+    .track_well_p6::before{
+        content: url("../images/tracks/pm6.svg")
     }
 }
 
