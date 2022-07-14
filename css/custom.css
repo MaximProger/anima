@@ -221,8 +221,8 @@
 
 .why_block_wrapper::before {
   position: absolute;
-  top: 5px;
-  left: 9px;
+  top: 15px;
+  left: 20px;
 
   width: 71px;
   height: 87px;
@@ -283,7 +283,7 @@
 
 .speakers_block_inner {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: flex-start;
 
   padding-left: 75px;
@@ -469,4 +469,93 @@
 .speakers__row > * {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.organizers_block_wrapper {
+  margin-bottom: 92px;
+}
+
+.organizers_block_title {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 62px;
+  font-feature-settings: "liga" off;
+
+  padding-left: 46px;
+  margin-bottom: 24px;
+
+  color: #11253d;
+}
+
+.organizers_block_item {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+
+  padding: 50px;
+  height: 100%;
+
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(174, 174, 174, 0.25);
+  border-radius: 26px;
+}
+
+.organizers_block_item:last-child::before {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+
+  width: 71px;
+  height: 87px;
+
+  content: "";
+  transform: rotate(90deg);
+
+  background: url("../images/pen.svg") no-repeat center / contain;
+}
+
+.organizers_block_top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-bottom: 33px;
+  height: 100%;
+}
+
+.organizers_block_logo {
+  display: block;
+}
+
+.organizers_block_label {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1;
+
+  display: block;
+
+  padding: 3px 23px 6px 24px;
+  margin-bottom: 29px;
+  width: fit-content;
+
+  background: #fff399;
+  border-radius: 50px;
+  color: #000000;
+}
+
+.organizers_block_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 145%;
+
+  color: rgba(0, 0, 0, 0.5);
 }
