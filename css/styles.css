@@ -1,0 +1,75 @@
+#anima{
+    padding: 0 4vw;
+}
+.nav-item{
+    font-family: 'Stratos LC Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+.nav-link{
+    color: #000000 !important;
+}
+.nav_item_bordered{
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 2px 20px;
+}
+
+.footer{
+    background: #000000;
+}
+.ul_footer_menu{
+    font-family: 'Stratos LC Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.li_footer_menu_item{
+    display: inline-block;
+    list-style: none;
+}
+.a_footer{
+    color: #ffffff;
+}
+.footer_logo{
+    float: left;
+}
+.well{
+    border-radius: 25px;
+    margin: 15px 15px;
+    padding: 10px 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.not_well{
+    margin: 15px 15px;
+    padding: 10px 10px;
+}
+.well_int{
+    padding: 10px 40px;
+}
+.caption{
+    font-family: 'Stratos LC Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3vw;
+}
+.col_why1{
+    text-align: center;
+}
+.row_why2{
+    text-align: center;
+}
+.slider_carousel{
+    border-radius: 2.5vw;
+}
+.col_pic{
+    text-align: center;
+}
+.track_well_caption{
+    font-weight: bold;
+}
