@@ -1,24 +1,34 @@
 /*Sm*/
-@media (min-width: 576px) {
+@media (max-width: 576px) {
 
 }
 
 /*Md*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 }
 
 /*Large*/
-@media (min-width: 992px) {
-
+@media (max-width: 992px) {
+    .track_well{
+        padding-right: 100px;
+    }
+    .track_well_p1::before{
+        position: absolute;
+        height: 150px;
+        right: -1%;
+        margin-top: -50px;
+        width: 150px;
+        content: url("../images/tracks/p1.svg")
+    }
 }
 
 /*X-Large*/
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
 
 }
 
 /*XX-Large*/
-@media (min-width: 1400px) {
+@media (max-width: 1400px) {
 
 }
