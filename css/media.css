@@ -355,6 +355,195 @@
   .speakers-item__left {
     margin-right: 23px;
   }
+
+  .tracks_block::before {
+    top: -80px;
+    left: 0;
+
+    width: 166.05px;
+    height: 388.55px;
+  }
+
+  .tracks_row {
+    margin-bottom: 15px;
+  }
+
+  .tracks_row:last-child {
+    margin-bottom: 0;
+  }
+
+  .organizers_block::after {
+    top: 50px;
+    right: -40px;
+
+    width: 156px;
+    height: 121px;
+  }
+
+  .organizers_block::before {
+    top: -220px;
+    left: 0;
+
+    width: 194.63px;
+    height: 543.3px;
+
+    opacity: 0.5;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    transform: rotate(-30deg);
+    background-image: none;
+  }
+
+  .organizers_block_col {
+    margin-bottom: 15px;
+  }
+
+  .organizers_block_col:last-child {
+    margin-bottom: 0;
+  }
+
+  .organizers_block_item {
+    padding: 36px 15px 37px 23px;
+  }
+
+  .organizers_block_col:last-child .organizers_block_item::before {
+    width: 38px;
+    height: 47px;
+  }
+
+  .organizers_block_label {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 145%;
+  }
+
+  .organizers_block_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 145%;
+  }
+
+  .track_caption {
+    background-size: 224px 249px;
+  }
+
+  .place_block_wrapper {
+    padding: 38px 20px 23px;
+  }
+
+  .place_left_date {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    order: 2;
+
+    margin-bottom: 22px;
+  }
+
+  .place_block_title {
+    order: 1;
+
+    margin-bottom: 22px;
+    margin-left: 0;
+  }
+
+  .place_left_desc {
+    font-size: 15px;
+    line-height: 26px;
+
+    order: 3;
+
+    margin-bottom: 22px;
+  }
+
+  .place_left_address {
+    font-size: 18px;
+    line-height: 29px;
+
+    order: 4;
+
+    margin-bottom: 36px;
+  }
+
+  .col_place_right .carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .place_block_indicators button {
+    width: 7px !important;
+    height: 7px !important;
+    margin-left: 2.5px !important;
+    margin-right: 2.5px !important;
+  }
+
+  .place_block_indicators button.active {
+    width: 28px !important;
+    height: 3px !important;
+    margin-left: 5.5px !important;
+    margin-right: 5.5px !important;
+  }
+
+  .footer_mob__logo img {
+    width: 134.65px;
+    margin-bottom: 25px;
+  }
+
+  .footer_mob__row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+  }
+
+  .a_footer_mob {
+    padding: 6px 16px;
+
+    white-space: nowrap;
+  }
+
+  .footer_mob {
+    padding: 30px 12px 23px;
+  }
+
+  .footer_mob__menu > .row {
+    margin-left: -3px;
+    margin-right: -3px;
+  }
+
+  .footer_mob__menu > .row > .col {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .footer_mob__menu .footer__btn_mob {
+    font-size: 18px;
+    line-height: 24px;
+
+    padding: 12px 0;
+    width: 100%;
+
+    border-radius: 75px;
+  }
+
+  .footer-info__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    font-feature-settings: "liga" off;
+
+    text-decoration: none;
+
+    color: #a0a8b1;
+  }
+
+  .footer-info__col.col-12 {
+    margin-top: 6px;
+
+    text-align: center;
+  }
 }
 
 #anima {
