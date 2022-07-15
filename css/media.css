@@ -6,6 +6,18 @@
 @media (max-width: 1200px) {
 }
 
+@media (max-width: 1199px) {
+  .anima_moscow {
+    font-size: 79px;
+    line-height: 100px;
+  }
+
+  .open_forum__number {
+    font-size: 79px;
+    line-height: 100px;
+  }
+}
+
 /*Large*/
 @media (max-width: 992px) {
   .track_well {
@@ -41,7 +53,7 @@
   }
 
   .nav_inner {
-    align-items: flex-start;
+    align-items: center;
   }
   .why_block_wrapper {
     padding: 30px;
@@ -60,17 +72,288 @@
     height: 30px;
   }
   .why__title {
-    padding: 10px 70px 0 70px;
+    margin-left: 0;
+    margin-bottom: 21px;
   }
   #regModalLabel {
     font-size: 36px;
   }
   .navbar-collapse ul {
     display: inline-block;
-    margin-left: 50px;
+
+    text-align: center;
   }
   .navbar-collapse li {
     margin: 5px 0 10px 0;
+  }
+
+  #anima {
+    padding: 0;
+  }
+
+  .nav_row {
+    position: relative;
+  }
+
+  .nav_inner {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+
+  .nav_collapse {
+    /*display: flex !important;*/
+    position: absolute;
+    top: 69px;
+    left: 0;
+    z-index: 10;
+
+    width: 100%;
+
+    background: #fff;
+    border-radius: 0 0 28px 28px;
+  }
+
+  .nav_collapse {
+    /*   display: block !important;
+
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 10;
+
+    width: 100%;
+
+    background: #fff;
+    border-radius: 0 0 28px 28px;*/
+  }
+
+  .nav_brand {
+    margin-right: 15px;
+  }
+
+  .nav_toggler {
+    padding: 0;
+
+    outline: none;
+
+    border: none;
+    box-shadow: none !important;
+  }
+
+  .nav_toggler .navbar-toggler-icon {
+    width: 38px;
+    height: 15px;
+
+    background: url("../images/burger.svg") no-repeat center;
+  }
+
+  .nav_item {
+    margin-right: 0;
+    /* width: 100%; */
+  }
+
+  .nav_link {
+    font-size: 14px;
+    line-height: 24px;
+
+    padding: 6px 16px !important;
+
+    border: 1px solid #000;
+    border-radius: 75px;
+  }
+
+  .nav_link:hover::before {
+    display: none;
+  }
+
+  .nav_link--btn {
+    font-size: 18px;
+    line-height: 24px;
+
+    text-align: center;
+
+    padding: 12px 0;
+    width: 100%;
+  }
+
+  .header_container {
+    align-items: flex-start;
+  }
+
+  .header_left_col {
+    padding-top: 182px;
+  }
+
+  .col_header_left_col_dates {
+    position: absolute;
+    top: 16px;
+    left: 0;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .open_forum__text {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+
+    position: absolute;
+    top: 59px;
+    left: 0;
+
+    width: 100%;
+  }
+
+  .open_forum__text br {
+    display: none;
+  }
+
+  .col_header_left_col_online {
+    font-size: 18px;
+    line-height: 120%;
+
+    position: absolute;
+    top: 95px;
+    left: 0;
+  }
+
+  .col_header_left_col_space {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+
+    position: absolute;
+    top: 122px;
+    left: 0;
+  }
+
+  .col_header_left_col_space br {
+    display: inline;
+  }
+
+  .anima_moscow {
+    top: -40px;
+
+    margin-bottom: -65px;
+  }
+
+  .anima_moscow span:first-child {
+    top: 40px;
+  }
+
+  .open_forum__number {
+    margin-left: auto;
+  }
+
+  .header__btn {
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 113.98%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 323.95px;
+    height: 80px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .row_open_forum {
+    margin-bottom: 39px;
+  }
+
+  .header__video--mobile {
+    display: block;
+  }
+
+  .header__video--desktop {
+    display: none;
+  }
+
+  .header_row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .anima__logo {
+    max-width: 105px;
+  }
+
+  .nav_subbrand img {
+    max-width: 50px;
+  }
+
+  .nav_toggler .navbar-toggler-icon {
+    display: block;
+  }
+
+  .why_block_wrapper::before {
+    display: none;
+  }
+
+  .why_col {
+    margin-bottom: 30px;
+  }
+
+  .why_col:last-child {
+    margin-bottom: 0;
+  }
+
+  .pre_why_block::after {
+    display: none;
+  }
+
+  .why_block::after {
+    right: 0;
+    bottom: -50px;
+
+    width: 69px;
+    height: 96px;
+
+    background: url("../images/brush.svg") no-repeat center;
+  }
+
+  .speakers_block_inner {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+  .speakers-item__number {
+    display: none;
+  }
+
+  .speakers-item__wrapper {
+    padding: 29px 8px 18px 14px;
+  }
+
+  .speakers-item__img {
+    max-width: 99px;
+    height: auto;
+  }
+
+  .speakers-item__title {
+    font-size: 22px;
+    line-height: 28px;
+
+    margin-bottom: 19px;
+  }
+
+  .speakers-item__track {
+    margin-left: 0;
+    margin-bottom: 14px;
+  }
+
+  .speakers-item__description {
+    font-size: 12px;
+    line-height: 135%;
+  }
+
+  .speakers-item__left {
+    margin-right: 23px;
   }
 }
 
