@@ -194,7 +194,8 @@
             <div class="container-fluid">
                 <div class="speakers_block_wrapper" id="speakers">
 
-                    <div id="carouselCardsIndicators" class="speakers_block_carousel carousel slide"
+                    <!-- CARDS Desktop -->
+                    <div id="carouselCardsIndicators" class="speakers_block_carousel carousel slide d-none d-lg-block d-xl-block d-xxl-block"
                         data-bs-ride="carousel">
                         <div class="speakers_block_inner">
                             <h2 class="speakers_block_title">Спикеры</h2>
@@ -210,7 +211,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-inner">
+                        <div class="carousel-inner d-none d-lg-block d-xl-block d-xxl-block">
                             <div class="carousel-item active">
                                 <div class="row speakers__row">
                                     <div
@@ -381,6 +382,216 @@
                             </div>
                         </div>
                     </div>
+                    <!-- /CARDS Desktop -->
+
+
+                    <!-- CARDS Mobile -->
+                    <div id="carouselCardsIndicatorsM" class="speakers_block_carousel carousel slide d-lg-none d-xl-none d-xxl-none"
+                         data-bs-ride="carousel">
+                        <div class="speakers_block_inner">
+                            <h2 class="speakers_block_title">Спикеры</h2>
+                            <div class="speakers-controlls">
+                                <button type="button" class="speakers-controlls__btn speakers-controlls__btn--back"
+                                        data-bs-target="#carouselCardsIndicatorsM" data-bs-slide="prev"></button>
+                                <!-- <button type="button"
+                                class="speakers-controlls__btn speakers-controlls__btn--back_double"></button>
+                            <button type="button"
+                                class="speakers-controlls__btn speakers-controlls__btn--next_double"></button> -->
+                                <button type="button" class="speakers-controlls__btn speakers-controlls__btn--next"
+                                        data-bs-target="#carouselCardsIndicatorsM" data-bs-slide="next"></button>
+                            </div>
+                        </div>
+
+                        <div class="carousel-inner d-lg-none d-xl-none d-xxl-none">
+
+
+                            <div class="carousel-item active">
+                                <div class="row speakers__row">
+                                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-xs-12 speakers__col ">
+                                        <div class="speakers-item">
+                                            <div class="speakers-item__wrapper">
+                                                <span class="speakers-item__number">01</span>
+                                                <div class="speakers-item__left">
+                                                    <img class="speakers-item__img" src="./images/speakers/photos/1.png"
+                                                         alt="Иван Вторых" width="149" height="187" title="Иван Вторых"
+                                                         loading="lazy">
+                                                </div>
+                                                <div class="speakers-item__right">
+                                                    <h3 class="speakers-item__title">Иван Вторых</h3>
+                                                    <span class="speakers-item__track">Трек «Анимация как бизнес»
+                                                    </span>
+                                                    <p class="speakers-item__description">
+                                                        Режиссер, Анимационная студия Светлые Истории (снимали рекламные
+                                                        ролики для Яндекс, ВШЭ, Райффайзенбанк, Эрмитаж и пр.)
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row speakers__row">
+                                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-xs-12 speakers__col ">
+                                        <div class="speakers-item">
+                                            <div class="speakers-item__wrapper">
+                                                <span class="speakers-item__number">02</span>
+                                                <div class="speakers-item__left">
+                                                    <img class="speakers-item__img" src="./images/speakers/photos/2.png"
+                                                         alt="Антон Сметанкин" width="151" height="179"
+                                                         title="Антон Сметанкин" loading="lazy">
+                                                </div>
+                                                <div class="speakers-item__right">
+                                                    <h3 class="speakers-item__title">Антон Сметанкин</h3>
+                                                    <span class="speakers-item__track">Трек «Творчество и креатив»
+                                                    </span>
+                                                    <p class="speakers-item__description">
+                                                        Ге­нераль­ный ди­рек­тор,
+                                                        ани­маци­он­ная сту­дия «Па­ровоз»
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row speakers__row">
+                                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-xs-12 speakers__col ">
+                                        <div class="speakers-item">
+                                            <div class="speakers-item__wrapper">
+                                                <span class="speakers-item__number">03</span>
+                                                <div class="speakers-item__left">
+                                                    <img class="speakers-item__img" src="./images/speakers/photos/3.png"
+                                                         alt="Станислав Дединский" width="149" height="187"
+                                                         title="Станислав Дединский" loading="lazy">
+                                                </div>
+                                                <div class="speakers-item__right">
+                                                    <h3 class="speakers-item__title">Станислав Дединский</h3>
+                                                    <span class="speakers-item__track">Трек «Анимация как бизнес»
+                                                    </span>
+                                                    <p class="speakers-item__description">
+                                                        Главред журнала "Искусство кино", старший редактор сайта
+                                                        «КиноПоиск», редактор журнала Esquire.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row speakers__row">
+                                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-xs-12 speakers__col ">
+                                        <div class="speakers-item">
+                                            <div class="speakers-item__wrapper">
+                                                <span class="speakers-item__number">04</span>
+                                                <div class="speakers-item__left">
+                                                    <img class="speakers-item__img" src="./images/speakers/photos/4.png"
+                                                         alt="Андрей Тубольцев" width="151" height="179"
+                                                         title="Андрей Тубольцев" loading="lazy">
+                                                </div>
+                                                <div class="speakers-item__right">
+                                                    <h3 class="speakers-item__title">Андрей Тубольцев</h3>
+                                                    <span class="speakers-item__track">Трек «Творчество и креатив»
+                                                    </span>
+                                                    <p class="speakers-item__description">
+                                                        Генеральный директор DreamLazer
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row speakers__row">
+                                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-xs-12 speakers__col ">
+                                        <div class="speakers-item">
+                                            <div class="speakers-item__wrapper">
+                                                <span class="speakers-item__number">05</span>
+                                                <div class="speakers-item__left">
+                                                    <img class="speakers-item__img" src="./images/speakers/photos/5.png"
+                                                         alt="Юлия Немчина" width="149" height="187" title="Юлия Немчина"
+                                                         loading="lazy">
+                                                </div>
+                                                <div class="speakers-item__right">
+                                                    <h3 class="speakers-item__title">Юлия Немчина</h3>
+                                                    <span class="speakers-item__track">Трек «Анимация как бизнес»
+                                                    </span>
+                                                    <p class="speakers-item__description">
+                                                        Управляющий директор ГК «Рики»
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row speakers__row">
+                                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-xs-12 speakers__col ">
+                                        <div class="speakers-item">
+                                            <div class="speakers-item__wrapper">
+                                                <span class="speakers-item__number">06</span>
+                                                <div class="speakers-item__left">
+                                                    <img class="speakers-item__img" src="./images/speakers/photos/6.png"
+                                                         alt="Олег Рой" width="151" height="179" title="Олег Рой"
+                                                         loading="lazy">
+                                                </div>
+                                                <div class="speakers-item__right">
+                                                    <h3 class="speakers-item__title">Олег Рой</h3>
+                                                    <span class="speakers-item__track">Трек «Анимация как бизнес»
+                                                    </span>
+                                                    <p class="speakers-item__description">
+                                                        Российский писатель, сценарист, продюсер и общественный деятель,
+                                                        член правления Ассоциации анимационного кино.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row speakers__row">
+                                    <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-sm-12 col-xs-12 speakers__col ">
+                                        <div class="speakers-item">
+                                            <div class="speakers-item__wrapper">
+                                                <span class="speakers-item__number">07</span>
+                                                <div class="speakers-item__left">
+                                                    <img class="speakers-item__img" src="./images/speakers/photos/7.png"
+                                                         alt="Алена Сычева" width="149" height="187" title="Алена Сычева"
+                                                         loading="lazy">
+                                                </div>
+                                                <div class="speakers-item__right">
+                                                    <h3 class="speakers-item__title">Алена Сычева</h3>
+                                                    <span class="speakers-item__track">Трек «Анимация как бизнес»
+                                                    </span>
+                                                    <p class="speakers-item__description">
+                                                        Киновед, продюсер анимационного кино, программный директор
+                                                        российских и международных кинофестивалей
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!-- /CARDS mobile -->
+
+
+
+
 
                 </div>
             </div>
