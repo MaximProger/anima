@@ -544,6 +544,26 @@
 
     text-align: center;
   }
+
+  .why_block {
+    margin-bottom: 56px;
+  }
+
+  #tracks {
+    margin-bottom: 68px;
+  }
+
+  .organizers_block_wrapper {
+    margin-bottom: 59px;
+  }
+
+  .partners_block_wrapper {
+    margin-bottom: 49px;
+  }
+
+  .place_block_wrapper {
+    margin-bottom: 39px;
+  }
 }
 
 #anima {

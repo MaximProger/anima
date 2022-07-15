@@ -96,6 +96,7 @@
   border-radius: 1vw;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 20px 30px;
+  background: #fff;
 }
 .track_well_text {
   font-family: "Inter";
@@ -105,6 +106,15 @@
   line-height: 135%;
   z-index: 2;
 }
+
+.tracks_row {
+  margin-bottom: 40px;
+}
+
+.tracks_row:last-child {
+  margin-bottom: 0;
+}
+
 .track_caption {
   font-family: "Stratos LC Web";
   font-style: normal;
@@ -116,7 +126,7 @@
   background-position: top right;
   background-repeat: no-repeat;
   padding: 50px 0;
-    margin-left: 46px;
+  margin-left: 46px;
 }
 #tracks {
   margin-bottom: 50px;
@@ -166,42 +176,42 @@
 .pointer {
   cursor: pointer;
 }
-.mob_header{
-    position: relative;
+.mob_header {
+  position: relative;
 }
-.footer_mob{
-    background: #000000;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    margin-left: 10px ;
-    margin-right: 10px ;
-    padding:25px;
+.footer_mob {
+  background: #000000;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 25px;
 }
-.footer_mob__logo{
-    display: block;
-    margin-bottom: 20px;
+.footer_mob__logo {
+  display: block;
+  margin-bottom: 20px;
 }
-.footer_mob__logo img{
-    width: 20vw;
+.footer_mob__logo img {
+  width: 20vw;
 }
-.footer_mob__menu a{
-    text-align: center;
-    border: 1px solid #ffffff;
-    margin-bottom: 10px;
-    border-radius: 15px;
-    display: inline-block;
-    width: 100%;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+.footer_mob__menu a {
+  text-align: center;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 
-.footer_mob__menu a:hover{
-    cursor:pointer;
-    background: #ffffff;
-    color: #000000;
+.footer_mob__menu a:hover {
+  cursor: pointer;
+  background: #ffffff;
+  color: #000000;
 }

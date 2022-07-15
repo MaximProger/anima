@@ -616,6 +616,7 @@
 }
 
 .partners_block_wrapper {
+  margin: 0;
   margin-bottom: 83px;
   padding: 0;
 }
@@ -944,4 +945,16 @@
   border: 1px solid #000000;
   border-radius: 50%;
   transform: rotate(42.44deg);
+}
+
+.partners_block_wrapper .flickity-button {
+  display: none;
+}
+
+.partners_block_wrapper .flickity-page-dots {
+  display: none;
+}
+
+.partners_block_wrapper .carousel {
+  padding: 0;
 }
