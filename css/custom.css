@@ -1032,6 +1032,10 @@
     border-radius: 75px;
   }
 
+  .nav_link:hover::before {
+    display: none;
+  }
+
   .nav_link--btn {
     font-size: 18px;
     line-height: 24px;
