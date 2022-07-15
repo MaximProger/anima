@@ -51,7 +51,9 @@
     .nav_inner {
         align-items: flex-start;
     }
-
+    .why_block_wrapper{
+        padding: 30px;
+    }
 }
 
 /*Md*/
