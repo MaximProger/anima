@@ -5,28 +5,34 @@
 body { font-family: sans-serif; }
 
 .carousel {
-    background: #EEE;
+    padding: 0 100px;
+    text-align: left;
+    /*background: #EEE;*/
 }
 
 .carousel-cell {
-    width: 28%;
+    /*width: 28%;
     height: 200px;
     margin-right: 10px;
     background: #8C8;
     border-radius: 5px;
-    counter-increment: carousel-cell;
+    counter-increment: carousel-cell;*/
 }
 
-.carousel-cell.is-selected {
+/*.carousel-cell.is-selected {
     background: #ED2;
-}
+}*/
 
 /* cell number */
-.carousel-cell:before {
+/*.carousel-cell:before {
     display: block;
     text-align: center;
     content: counter(carousel-cell);
     line-height: 200px;
     font-size: 80px;
     color: white;
+}*/
+.carousel-cell img{
+    height: 50px;
+    margin: 15px 30px;
 }
