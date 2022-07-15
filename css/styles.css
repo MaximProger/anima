@@ -1,133 +1,135 @@
-#anima{
-    padding: 0 4vw;
+#anima {
+  overflow-y: hidden;
+
+  padding: 0 4vw;
 }
-.nav-item{
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #000000;
+.nav-item {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
 }
-.nav-link{
-    color: #000000 !important;
+.nav-link {
+  color: #000000 !important;
 }
-.nav_item_bordered{
-    border: 1px solid #000000;
-    border-radius: 20px;
-    padding: 2px 20px;
+.nav_item_bordered {
+  border: 1px solid #000000;
+  border-radius: 20px;
+  padding: 2px 20px;
 }
-.footer{
-    background: #000000;
+.footer {
+  background: #000000;
 }
-.ul_footer_menu{
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    color: #ffffff;
+.ul_footer_menu {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
 }
-.li_footer_menu_item{
-    display: inline-block;
-    list-style: none;
+.li_footer_menu_item {
+  display: inline-block;
+  list-style: none;
 }
-.a_footer{
-    color: #ffffff;
+.a_footer {
+  color: #ffffff;
 }
-.footer_logo{
-    float: left;
+.footer_logo {
+  float: left;
 }
-.well{
-    border-radius: 25px;
-    margin: 15px 15px;
-    padding: 10px 10px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+.well {
+  border-radius: 25px;
+  margin: 15px 15px;
+  padding: 10px 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
-.not_well{
-    margin: 15px 15px;
-    padding: 10px 10px;
+.not_well {
+  margin: 15px 15px;
+  padding: 10px 10px;
 }
-.well_int{
-    padding: 10px 40px;
+.well_int {
+  padding: 10px 40px;
 }
-.caption{
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3vw;
-    line-height: 125%;
+.caption {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  line-height: 125%;
 }
-.col_why1{
-    text-align: center;
+.col_why1 {
+  text-align: center;
 }
-.row_why2{
-    text-align: center;
+.row_why2 {
+  text-align: center;
 }
-.slider_carousel{
-    border-radius: 2.5vw;
+.slider_carousel {
+  border-radius: 2.5vw;
 }
-.col_pic{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col_pic {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.col_tower{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col_tower {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.col_pic img{
-    max-width: 100%;
+.col_pic img {
+  max-width: 100%;
 }
-.track_well_caption{
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 125%;
-    padding-bottom: 10px;
+.track_well_caption {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  padding-bottom: 10px;
 }
-.track_well{
-    border-radius: 1vw;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 20px 30px;
+.track_well {
+  border-radius: 1vw;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 20px 30px;
 }
-.track_well_text{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 135%;
-    z-index: 2;
+.track_well_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  z-index: 2;
 }
-.track_caption{
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 117%;
-    background-image: url('../images/tower_mob.svg');
-    background-size: contain;
-    background-position: top right;
-    background-repeat: no-repeat;
-    padding: 50px 0;
+.track_caption {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 117%;
+  background-image: url("../images/tower_mob.svg");
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding: 50px 0;
 }
-#tracks{
-    margin-bottom: 50px;
-    position: relative;
+#tracks {
+  margin-bottom: 50px;
+  position: relative;
 }
 .pre_why_block::after {
-    position: absolute;
-    z-index: 1;
-    right: 20px;
-    bottom: -110px;
-    width: 206px;
-    height: 140px;
-    content: "";
-    background: url(../images/red_square.svg) no-repeat left;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: -20px;
+  width: 206px;
+  height: 140px;
+  content: "";
+  background: url(../images/red_square.svg) no-repeat left / contain;
 }
 /*
 #tracks::before {
@@ -141,25 +143,25 @@
     background: url(../images/big_red_square.svg) no-repeat right;
 }*/
 
-.btn-primary{
-    background: #FFE001;
-    border: 0;
-    color: #000000;
+.btn-primary {
+  background: #ffe001;
+  border: 0;
+  color: #000000;
 }
-#regModalLabel{
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 52px;
-    line-height: 66px;
+#regModalLabel {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 66px;
 }
-.form-control{
-    font-family: 'Stratos LC Web';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 113.98%;
+.form-control {
+  font-family: "Stratos LC Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 113.98%;
 }
-.pointer{
-    cursor: pointer;
+.pointer {
+  cursor: pointer;
 }
