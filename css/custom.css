@@ -813,8 +813,7 @@
 
 .nav_inner {
   display: flex;
-  /*align-items: center;*/
-    align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 
   width: 100%;
