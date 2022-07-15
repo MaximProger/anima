@@ -8,88 +8,72 @@
 
 /*Large*/
 @media (max-width: 992px) {
-    .track_well {
-        padding-right: 100px;
-    }
-    .track_well::before {
-        position: absolute;
-        height: 150px;
-        right: 0;
-        margin-top: -50px;
-    }
-    .track_well_p1::before {
-        content: url("../images/tracks/pm1.svg");
-    }
-    .track_well_p2::before {
-        content: url("../images/tracks/pm2.svg");
-    }
-    .track_well_p3::before {
-        content: url("../images/tracks/pm3.svg");
-    }
-    .track_well_p4::before {
-        content: url("../images/tracks/pm4.svg");
-    }
-    .track_well_p5::before {
-        content: url("../images/tracks/pm5.svg");
-    }
-    .track_well_p6::before {
-        content: url("../images/tracks/pm6.svg");
-    }
+  .track_well {
+    padding-right: 100px;
+  }
+  .track_well::before {
+    position: absolute;
+    height: 150px;
+    right: 0;
+    margin-top: -50px;
+  }
+  .track_well_p1::before {
+    content: url("../images/tracks/pm1.svg");
+  }
+  .track_well_p2::before {
+    content: url("../images/tracks/pm2.svg");
+  }
+  .track_well_p3::before {
+    content: url("../images/tracks/pm3.svg");
+  }
+  .track_well_p4::before {
+    content: url("../images/tracks/pm4.svg");
+  }
+  .track_well_p5::before {
+    content: url("../images/tracks/pm5.svg");
+  }
+  .track_well_p6::before {
+    content: url("../images/tracks/pm6.svg");
+  }
 
-    /*header*/
-    .header_container{
-        top: 25%;
-    }
+  .nav_item {
+    display: inline-block;
+  }
 
-     .nav_item{
-         display: inline-block;
-     }
-
-    .nav_inner {
-        align-items: flex-start;
-    }
-    .why_block_wrapper{
-        padding: 30px;
-    }
-    .organizers_block_title, .place_block_title, .track_caption, .caption, .speakers_block_title{
-        line-height: 110%;
-        font-size: 36px;
-        margin-left: 10px;
-        padding-left: 0;
-    }
-    .carousel-cell img {
-        height: 30px;
-    }
-    .why__title{
-        padding: 10px 70px 0 70px;
-    }
-    #regModalLabel {
-        font-size: 36px;
-    }
-    .navbar-collapse ul{
-        display: inline-block;
-        margin-left: 50px;
-    }
-    .navbar-collapse li{
-        margin: 5px 0 10px 0;
-    }
+  .nav_inner {
+    align-items: flex-start;
+  }
+  .why_block_wrapper {
+    padding: 30px;
+  }
+  .organizers_block_title,
+  .place_block_title,
+  .track_caption,
+  .caption,
+  .speakers_block_title {
+    line-height: 110%;
+    font-size: 36px;
+    margin-left: 10px;
+    padding-left: 0;
+  }
+  .carousel-cell img {
+    height: 30px;
+  }
+  .why__title {
+    padding: 10px 70px 0 70px;
+  }
+  #regModalLabel {
+    font-size: 36px;
+  }
+  .navbar-collapse ul {
+    display: inline-block;
+    margin-left: 50px;
+  }
+  .navbar-collapse li {
+    margin: 5px 0 10px 0;
+  }
 }
 
-/*Md*/
-@media (max-width: 768px) {
-    .header_container{
-        top: 35%;
-    }
+#anima {
+  overflow: hidden;
 }
-
-/*Sm*/
-@media (max-width: 576px) {
-    .header_container{
-        top: 50%;
-    }
-}
-
-#anima{
-    overflow: hidden;
-}
-
