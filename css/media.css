@@ -37,9 +37,6 @@
     }
 
     /*header*/
-    .track_caption{
-        margin-left: 20px;
-    }
     .header_container{
         top: 25%;
     }
@@ -53,6 +50,10 @@
     }
     .why_block_wrapper{
         padding: 30px;
+    }
+    .organizers_block_title, .place_block_title, .track_caption, .caption, .speakers_block_title{
+        line-height: 110%;
+        font-size: 36px;
     }
 }
 
