@@ -54,6 +54,11 @@
     .organizers_block_title, .place_block_title, .track_caption, .caption, .speakers_block_title{
         line-height: 110%;
         font-size: 36px;
+        margin-left: 10px;
+        padding-left: 0;
+    }
+    .carousel-cell img {
+        height: 30px;
     }
 }
 
