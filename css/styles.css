@@ -101,6 +101,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 135%;
+    z-index: 2;
 }
 .track_caption{
     font-family: 'Stratos LC Web';
@@ -116,4 +117,26 @@
 }
 #tracks{
     margin-bottom: 50px;
+    position: relative;
 }
+.pre_why_block::after {
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+    bottom: -110px;
+    width: 206px;
+    height: 140px;
+    content: "";
+    background: url(../images/red_square.svg) no-repeat left;
+}
+/*
+#tracks::before {
+    position: absolute;
+    z-index: 1;
+    width: 363px;
+    height: 282px;
+    right: -100px;
+    bottom: 200px;
+    content: "";
+    background: url(../images/big_red_square.svg) no-repeat right;
+}*/
