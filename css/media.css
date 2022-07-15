@@ -60,6 +60,9 @@
     .carousel-cell img {
         height: 30px;
     }
+    .why__title{
+        padding: 10px 70px 0 70px;
+    }
 }
 
 /*Md*/
