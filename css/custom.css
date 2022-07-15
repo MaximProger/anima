@@ -530,6 +530,7 @@
 
 .organizers_block_logo {
   display: block;
+    max-width: 100%;
 }
 
 .organizers_block_label {
