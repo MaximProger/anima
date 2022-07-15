@@ -63,6 +63,16 @@
     .why__title{
         padding: 10px 70px 0 70px;
     }
+    #regModalLabel {
+        font-size: 36px;
+    }
+    .navbar-collapse ul{
+        display: inline-block;
+        margin-left: 50px;
+    }
+    .navbar-collapse li{
+        margin: 5px 0 10px 0;
+    }
 }
 
 /*Md*/

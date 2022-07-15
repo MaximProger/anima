@@ -948,6 +948,19 @@
     padding-bottom: 14px;
   }
 
+    .nav_collapse{
+        /*display: flex !important;*/
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 10;
+
+        width: 100%;
+
+        background: #fff;
+        border-radius: 0 0 28px 28px;
+    }
+
   .nav_collapse {
  /*   display: block !important;
 
