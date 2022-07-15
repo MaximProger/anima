@@ -949,7 +949,7 @@
   }
 
   .nav_collapse {
-    display: block !important;
+ /*   display: block !important;
 
     position: absolute;
     top: 70px;
@@ -959,7 +959,7 @@
     width: 100%;
 
     background: #fff;
-    border-radius: 0 0 28px 28px;
+    border-radius: 0 0 28px 28px;*/
   }
 
   .nav_brand {

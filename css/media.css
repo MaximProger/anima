@@ -45,6 +45,10 @@
         top: 25%;
     }
 
+     .nav_item{
+         display: inline-block;
+     }
+
 }
 
 /*Md*/
