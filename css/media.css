@@ -38,6 +38,13 @@
     .track_well_p6::before{
         content: url("../images/tracks/pm6.svg")
     }
+    .nav_inner {
+        margin-top: 25px;
+        display: flex;
+        align-items: flex-start !important;
+        justify-content: space-between;
+        width: 100%;
+    }
 }
 
 /*X-Large*/
