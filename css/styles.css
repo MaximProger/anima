@@ -168,3 +168,39 @@
 .mob_header{
     position: relative;
 }
+.footer_mob{
+    background: #000000;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-left: 10px ;
+    margin-right: 10px ;
+    padding:25px;
+}
+.footer_mob__logo{
+    display: block;
+    margin-bottom: 20px;
+}
+.footer_mob__logo img{
+    width: 20vw;
+}
+.footer_mob__menu a{
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Stratos LC Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer_mob__menu a:hover{
+    cursor:pointer;
+    background: #ffffff;
+    color: #000000;
+}
