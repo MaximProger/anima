@@ -165,3 +165,6 @@
 .pointer {
   cursor: pointer;
 }
+.mob_header{
+    position: relative;
+}

@@ -1,47 +1,67 @@
-/*Sm*/
-@media (max-width: 576px) {
-}
-
-/*Md*/
-@media (max-width: 768px) {
-}
-
-/*Large*/
-@media (max-width: 992px) {
-  .track_well {
-    padding-right: 100px;
-  }
-  .track_well::before {
-    position: absolute;
-    height: 150px;
-    right: -1%;
-    margin-top: -50px;
-    width: 150px;
-  }
-  .track_well_p1::before {
-    content: url("../images/tracks/pm1.svg");
-  }
-  .track_well_p2::before {
-    content: url("../images/tracks/pm2.svg");
-  }
-  .track_well_p3::before {
-    content: url("../images/tracks/pm3.svg");
-  }
-  .track_well_p4::before {
-    content: url("../images/tracks/pm4.svg");
-  }
-  .track_well_p5::before {
-    content: url("../images/tracks/pm5.svg");
-  }
-  .track_well_p6::before {
-    content: url("../images/tracks/pm6.svg");
-  }
+/*XX-Large*/
+@media (max-width: 1400px) {
 }
 
 /*X-Large*/
 @media (max-width: 1200px) {
 }
 
-/*XX-Large*/
-@media (max-width: 1400px) {
+/*Large*/
+@media (max-width: 992px) {
+    .track_well {
+        padding-right: 100px;
+    }
+    .track_well::before {
+        position: absolute;
+        height: 150px;
+        right: -1%;
+        margin-top: -50px;
+        width: 150px;
+    }
+    .track_well_p1::before {
+        content: url("../images/tracks/pm1.svg");
+    }
+    .track_well_p2::before {
+        content: url("../images/tracks/pm2.svg");
+    }
+    .track_well_p3::before {
+        content: url("../images/tracks/pm3.svg");
+    }
+    .track_well_p4::before {
+        content: url("../images/tracks/pm4.svg");
+    }
+    .track_well_p5::before {
+        content: url("../images/tracks/pm5.svg");
+    }
+    .track_well_p6::before {
+        content: url("../images/tracks/pm6.svg");
+    }
+
+    /*header*/
+    .track_caption{
+        margin-left: 20px;
+    }
+    .header_container{
+        top: 25%;
+    }
+
 }
+
+/*Md*/
+@media (max-width: 768px) {
+    .header_container{
+        top: 35%;
+    }
+}
+
+/*Sm*/
+@media (max-width: 576px) {
+    .header_container{
+        top: 50%;
+    }
+}
+
+#anima{
+    overflow: hidden;
+}
+
