@@ -24,8 +24,8 @@
 
         <!--<div class="row nav_row d-none d-lg-block d-xl-block d-xxl-block">-->
         <div class="row nav_row">
-            <nav class="nav_navbar navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
+            <nav class="nav_navbar navbar navbar-expand-lg navbar-light fixed-top">
+                <div class="container">
                     <div class="nav_inner">
                         <div class="nav_wrapper">
                             <a class="navbar-brand nav_brand" href="/">
@@ -45,16 +45,20 @@
                         <div class="collapse navbar-collapse nav_collapse" id="navbarSupportedContent">
                             <ul class="navbar_nav navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav_item nav-item">
-                                    <a class="nav_link nav-link" aria-current="page" href="#speakers">Cпикеры</a>
+                                    <a class="nav_link nav-link" aria-current="page" href="#speakers"
+                                        data-scroll="#speakers">Cпикеры</a>
                                 </li>
                                 <li class="nav_item nav-item">
-                                    <a class="nav_link nav-link" aria-current="page" href="#tracks">Треки форума</a>
+                                    <a class="nav_link nav-link" aria-current="page" href="#tracks"
+                                        data-scroll="#tracks">Треки форума</a>
                                 </li>
                                 <li class="nav_item nav-item">
-                                    <a class="nav_link nav-link" aria-current="page" href="#programm">Программа</a>
+                                    <a class="nav_link nav-link" aria-current="page" href="#programm"
+                                        data-scroll="#programm">Программа</a>
                                 </li>
                                 <li class="nav_item nav-item">
-                                    <a class="nav_link nav-link" aria-current="page" href="#place">Место
+                                    <a class="nav_link nav-link" aria-current="page" href="#place"
+                                        data-scroll="#place">Место
                                         проведения</a>
                                 </li>
                                 <li class="nav_item nav-item">
@@ -83,7 +87,7 @@
         </div>
 
         <div class="header_block">
-            <div class="header_container container-fluid">
+            <div class="header_container container">
                 <div class="header_row">
                     <div class="header_left_col">
                         <div class="anima_moscow">
@@ -124,18 +128,25 @@
 
                 </div>
             </div>
+            <span class="header_bg header_bg--pen"></span>
+            <span class="header_bg header_bg--photo"></span>
+            <span class="header_bg header_bg--border"></span>
             <video class="header__video header__video--desktop" autoplay muted loop id="header_video">
-                <source src="./video/intro.mp4" type="video/mp4">
+                <source src="video/intro.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="video/intro.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="video/intro.webm" type='video/webm; codecs="vp8, vorbis"'>
             </video>
             <video class="header__video header__video--mobile" autoplay muted loop id="header_video">
-                <source src="./video/intro_mob.mp4" type="video/mp4">
+                <source src="video/intro_mob.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="video/intro_mob.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="video/intro_mob.webm" type='video/webm; codecs="vp8, vorbis"'>
             </video>
         </div>
 
 
         <div class="pre_why_block">
             <div class="why_block">
-                <div class="container-fluid">
+                <div class="container">
                     <div class="why_block_wrapper well well_wide well_int" id="why">
                         <div class="row row_why1">
                             <div class="col col_why1">
@@ -191,7 +202,7 @@
 
 
         <div class="speakers_block">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="speakers_block_wrapper" id="speakers">
 
                     <!-- CARDS Desktop -->
@@ -600,7 +611,7 @@
         </div>
 
         <div class="tracks_block">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="tracks_block_wrapper" id="tracks">
                     <div class="caption d-none d-lg-flex d-xl-flex d-xxl-flex">
                         Треки форума
@@ -613,7 +624,7 @@
                             <img src="images/tower2.svg" width="100%" alt="">
                         </div>
 
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+                        <div class="traks_col col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
 
                             <div class="tracks_row row">
                                 <div
@@ -737,7 +748,7 @@
         </div>
 
         <div class="organizers_block">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="organizers_block_wrapper" id="organizers">
                     <h2 class="organizers_block_title">Организаторы мероприятия</h2>
                     <div class="organizers_block_row row">
@@ -786,14 +797,15 @@
         </div>
 
         <div class="partners_block">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="partners_block_wrapper not_well well_int" id="partners">
                     <h2 class="caption partners_block_title">
                         Партнеры
                     </h2>
                     <div class="brands_bar">
                         <!-- Flickity HTML init -->
-                        <div class="carousel" data-flickity='{ "groupCells": true }'>
+                        <div class="carousel"
+                            data-flickity='{ "freeScroll": true, "contain": true, "groupCells": true, "prevNextButtons": false, "pageDots": false }'>
                             <div class="carousel-cell">
                                 <img src="images/partners/1dreamlaser.svg" alt="">
                             </div>
@@ -840,7 +852,7 @@
         </div>
 
         <div class="place_block">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="place_block_wrapper well well_wide well_int" id="place">
                     <div class="row row_place">
                         <div
@@ -955,22 +967,22 @@
         </div>
 
         <div class="footer_block d-none d-lg-block d-xl-block d-xxl-block">
-            <div class="container-fluid">
+            <div class="container">
                 <footer class="footer" id="footer">
                     <img class="footer_logo" src="images/logo_white.svg" width="135" height="26"
                         alt="Университет «Синергия»" title="Университет «Синергия»">
                     <ul class="ul_footer_menu">
                         <li class="li_footer_menu_item">
-                            <a class="a_footer" href="#speakers">Cпикеры</a>
+                            <a class="a_footer" href="#speakers" data-scroll="#speakers">Cпикеры</a>
                         </li>
                         <li class="li_footer_menu_item">
-                            <a class="a_footer" href="#tracks">Треки форума</a>
+                            <a class="a_footer" href="#tracks" data-scroll="#tracks">Треки форума</a>
                         </li>
                         <li class="li_footer_menu_item">
-                            <a class="a_footer" href="#programm">Программа</a>
+                            <a class="a_footer" href="#programm" data-scroll="#programm">Программа</a>
                         </li>
                         <li class="li_footer_menu_item">
-                            <a class="a_footer" href="#place">Место проведения</a>
+                            <a class="a_footer" href="#place" data-scroll="#place">Место проведения</a>
                         </li>
                         <li class="li_footer_menu_item">
                             <a class="a_footer" target="_blank" href="https://turniketov.net/factories/">Другие
@@ -989,7 +1001,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="regModalLabel">AnimaMoscow‘22</h5>
+                    <h5 class="modal-title" id="regModalLabel">Anima<br>Moscow‘22</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -1004,7 +1016,7 @@
                             <input type="email" class="form-control" id="email" placeholder="Почта">
                         </div>
                         <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="agreeCheck">
+                            <input type="checkbox" class="form-check-input" id="agreeCheck" checked>
                             <label class="form-check-label" for="agreeCheck">Я соглашаюсь на обработку персональных
                                 данных</label>
                         </div>
@@ -1016,6 +1028,10 @@
             </div>
         </div>
     </div>
+
+    <a data-bs-toggle="modal" data-bs-target="#regModal" class="header__btn header__btn--fixed pointer">
+        Бесплатная регистрация
+    </a>
 
     <script src="js/bootstrap.js" defer></script>
     <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js" defer></script>
